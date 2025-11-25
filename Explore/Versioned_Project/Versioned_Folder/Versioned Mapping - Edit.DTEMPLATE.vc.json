@@ -79,8 +79,32 @@
             "useSuccessFile" : "false"
           }
         }
+      },
+      {
+        "createTime" : "2019-06-20T00:04:10.626Z",
+        "name" : "DataMasking",
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "InputGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          },
+          {
+            "input" : "false",
+            "name" : "OutputGroup",
+            "output" : "true"
+          }
+        ],
+        "dmoMode" : "SIMPLE",
+        "locale" : "en_US"
       }
     ]
   },
-  "vcsExportTime" : "2025-11-25 07:20:27 PST"
+  "vcsExportTime" : "2025-11-25 07:21:17 PST"
 }
